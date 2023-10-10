@@ -1,0 +1,25 @@
+@import '../../styles/vars.scss';
+
+.categories-inner {
+    padding-top: 5px;
+    border-top: 5px solid #999999;
+}
+
+.categories-title {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.categories-item {
+    margin-bottom: 3px;
+}
+
+.categories-link {
+    color: $red;
+    font-size: 13px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

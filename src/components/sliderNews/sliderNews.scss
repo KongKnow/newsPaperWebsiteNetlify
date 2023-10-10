@@ -1,0 +1,32 @@
+@import '../../styles/vars.scss';
+
+.slider-news-inner {
+    padding: 35px 0;
+}
+
+.slider-news-post {
+    padding-right: 20px;
+}
+
+.slider-news-author {
+    display: block;
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.slider-news-title {
+    display: block;
+    color: $red;
+    font-size: 12px;
+    padding-right: 25px;
+    padding-top: 3px;
+    border-top: 1px solid #BCBCBC;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+
+

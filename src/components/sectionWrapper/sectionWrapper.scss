@@ -1,0 +1,27 @@
+.section-wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 4px double #999;
+}
+
+.news {
+    width: 60%;
+    margin-right: 30px;
+}
+
+.sorted-news {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 4px double #999;
+}
+
+.advertisement {
+    width: 16%;
+    margin-right: 10px;
+}
+
+.filters {
+    width: 16%;
+}
